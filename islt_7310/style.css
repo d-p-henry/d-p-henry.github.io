@@ -1,0 +1,22 @@
+body{
+    background-color: lightgrey;
+}
+nav{
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+nav ul li { 
+   display: inline;  
+}
+h1{
+    font-family: Helvetica, Arial, sans-serif;
+    color: #990033;
+    background-color: #0033ff;
+}
+h3{
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: italic;
+}
+p{
+    font-family: Helvetica, Arial, sans-serif;
+}
