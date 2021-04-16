@@ -1,0 +1,12 @@
+nav{
+    background-color: #E98074;
+    font-family: 'Arial Nova', Arial, sans-serif;
+    text-align: center;
+    color: #EAE7DC;
+}
+nav ul li {
+    margin: 20px;
+    padding: 5px;
+    border: 3px dotted #8E8D8A;
+    display: inline;  
+}
