@@ -10,3 +10,17 @@ nav ul li {
     border: 3px dotted #8E8D8A;
     display: inline;  
 }
+#nav_menu ul li {
+    margin: 20px;
+    padding: 5px;
+    border: 3px dotted #8E8D8A;
+    display: inline;  
+}
+
+#nav_menu ul ul li { float: none;}
+#nav_menu ul li:hover > ul { display: block;}
+#nav_menu > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
