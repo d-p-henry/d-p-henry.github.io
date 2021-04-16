@@ -1,15 +1,6 @@
 body{
     background-color: #D8C3A5;
 }
-nav{
-    background-color: #E98074;
-    font-family: 'Arial Nova', Arial, sans-serif;
-    text-align: center;
-    color: #EAE7DC;
-}
-nav ul li { 
-   display: inline;  
-}
 h1{
     font-family: Garamond, 'Times New Roman', serif;
     color: #EAE7DC;
