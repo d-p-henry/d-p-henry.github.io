@@ -18,3 +18,5 @@ p{
 blockquote{
     color: #E85A4F;
 }
+main p:first-of-type::first-letter { font-weight: bold; font-size: 200%; }
+#reflections { text-indent: 3em;}
