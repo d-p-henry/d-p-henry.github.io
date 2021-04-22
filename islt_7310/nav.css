@@ -25,3 +25,8 @@ nav ul li {
     display: block;
     clear: both;
 }
+.two-tier {
+    font-family: 'Arial Nova', Arial, sans-serif;
+    text-align: center;
+    color: #EAE7DC;
+}
