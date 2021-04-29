@@ -1,4 +1,33 @@
+@font-face {
+  font-family: Merriweather;
+  src: url(Merriweather-Regular.ttf);
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url(SourceSansPro-Regular.ttf);
+}
+@font-face {
+  font-family: 'Source Sans Pro Bold';
+  src: url(SourceSansPro-Bold.ttf);
+}
+@media print {
+ * {
+   background: transparent !important;
+   color: #000 !important;
+   box-shadow: none !important;
+   text-shadow: none !important;
+   font-family: Merriweather !important;
+   font-size: 12px;
+ }
+ nav {
+   display: none;
+ }
+ img {
+   max-width: 150px !important;
+   max-height: 180px !important;
+ }
 
+}
  @media screen and (min-width: 480px) and (max-width: 767px)  {
   body {
     font-size: 18px;
@@ -20,32 +49,38 @@
   }
   
 } 
-
+body, 
+html {
+  min-height: 100%;
+}
 body{
     background-color: #D8C3A5;
     margin: 40px;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header {
   justify-content: center;
 }
 h1{
-    font-family: Garamond, 'Times New Roman', serif;
+    font-family: 'Merriweather', Garamond, 'Times New Roman', serif;
     color: #EAE7DC;
     background-color: #E98074;
     border-radius: 5px;
 }
 h3{
-    font-family: 'Arial Nova', Arial, sans-serif;
+    font-family: 'Source Sans Pro Bold', 'Arial Nova', Arial, sans-serif;
     font-style: italic;
     color: #E85A4F;
 }
 p{
-    font-family: 'Arial Nova Light', Arial, sans-serif;
+    font-family: 'Source Sans Pro', 'Arial Nova Light', Arial, sans-serif;
     color: #8E8D8A;
 }
 blockquote{
     color: #E85A4F;
-    font-family: Garamond, 'Times New Roman', serif;
+    font-family: Merriweather, Garamond, 'Times New Roman', serif;
     font-weight: bold;
     font-size: 18px;
 }
