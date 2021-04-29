@@ -17,16 +17,21 @@
    box-shadow: none !important;
    text-shadow: none !important;
    font-family: Merriweather !important;
-   font-size: 12px;
+   font-size: 12px !important;
  }
  nav {
    display: none;
  }
  img {
-   max-width: 150px !important;
-   max-height: 180px !important;
+   max-width: 75px !important;
+   max-height: 90px !important;
  }
-
+ iframe {
+   display: none !important;
+ }
+footer img {
+  display: none !important;
+}
 }
  @media screen and (min-width: 480px) and (max-width: 767px)  {
   body {
@@ -49,16 +54,10 @@
   }
   
 } 
-body, 
-html {
-  min-height: 100%;
-}
+
 body{
     background-color: #D8C3A5;
     margin: 40px;
-    background-image: url(background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 header {
   justify-content: center;
@@ -92,6 +91,35 @@ main p:first-of-type::first-letter { font-weight: bold; font-size: 200%; }
 .projectbox div {
   padding-right: 5em;
 }
-footer{
+
+.zoom {
+  transition: transform .2s;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.zoom:hover {
+  transform: scale(1.5);
+}
+.box {
+  background-image: url(footer2.jpg);
+  width: auto;
+  height: auto;
   border-radius: 5px;
+  display: inline-flex;
+  justify-content: left;
+  gap: 10px;
+  padding-right: 5em;
+}
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
