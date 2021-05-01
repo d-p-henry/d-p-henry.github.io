@@ -85,11 +85,15 @@ blockquote{
     font-weight: bold;
     font-size: 18px;
 }
+
 main p:first-of-type::first-letter { font-weight: bold; font-size: 200%; }
+
 #reflections { text-indent: 3em;}
+
 .projectbox {
   display: flex;
 }
+
 .projectbox div {
   padding-right: 5em;
 }
@@ -124,4 +128,11 @@ main p:first-of-type::first-letter { font-weight: bold; font-size: 200%; }
   left: 0;
   width: 100%;
   height: 100%;
+}
+.libguide img
+{
+  max-width: 50%;
+}
+footer {
+  padding-top: 40px;
 }
