@@ -3,7 +3,7 @@
 <head>
                <meta charset="utf-8">
                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-               <title>Management</title>
+               <title>Contact</title>
                <link rel="stylesheet" href="style.css">
                <link rel="stylesheet" href="nav.css">
                <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
@@ -24,22 +24,22 @@
                                 <li><a href="project4.html">Service</a></li>
                             </ul></li>
                         <li><a href="reflection.html">Reflection</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </header>
 
 
         <main>
-            <h1>Project 2</h1>
-            <h3>Management</h3>
-            <p>
-                Every professional librarian requires managerial abilities. Whether this is for writing/adopting policy, analyzing/acquiring new collections, supervising employees and projects, or any of myriad other abilities, there are certain skills one needs to survive and to thrive. This was perhaps the element of librarianship I had the least familiarity with, being a lifelong student and having worked only lower level, hourly jobs. It has been crucial to my development to understand managerial techniques and practices, whether this is collections management, or project management.
-                <br><br>
-                The assignment I have chosen here is a collection analysis written for Collections and Access Management. Budgeting for collections is of prime importance for any information agency, and to budget well involves being able to critically evaluate the depth, breadth, and utility of collections. Drawing from my previous studies in music, I used this assignment to assess music collections, and analyzing a collection from a librarian's perspective is different from analyzing it from a musician's perspective. It was helpful for me to synthesize these disparate positions and think about the ways in which music collection development can benefit the library (in terms of cost, resources provided, available services) while also fulfilling musicians' needs.
-            </p>
-            <iframe src="management.pdf" width=1000 height=500>
-            </iframe>
+            <h1>Contact</h1>
+            <form id="email_form" action="mailto:dillon.p.henry@gmail.com?Subject=Professional%20Website%20Contact" method="post" enctype="text/plain">
+                <p>First name: <input type="text" id="firstname" autofocus required></p>
+                <p>Last name: <input type="text" id="lastname" required></p>
+                <p>E-mail: <input type="text" id="email" required></p>
+                <p>Comment:</p> <textarea id="comment" placeholder="Enter comments or feedback here" required></textarea><br>
+            <a href="mailto:dillon.p.henry@gmail.com?Subject=Professional%20Website%20Contact" target="top">
+                </a><input type="submit" id="submit" value="Send e-mail">
+            </form>
         </main>
         
         

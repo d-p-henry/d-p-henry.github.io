@@ -136,3 +136,37 @@ main p:first-of-type::first-letter { font-weight: bold; font-size: 200%; }
 footer {
   padding-top: 40px;
 }
+#comment {
+height: 5em;
+width: 25em;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+th {
+  text-align: left;
+}
+table {
+  border-spacing: 5px;
+}
+tr:nth-child(even) {
+  background-color: #eee;
+}
+tr:nth-child(odd) {
+  background-color: #cfcfcf;
+}
+th {
+  color: white;
+  background-color: black;
+}
+thead {
+  color: white;
+  background-color: black;
+  padding: 15px;
+}
