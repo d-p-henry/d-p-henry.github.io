@@ -1,8 +1,8 @@
  nav{
-    background-color: #E98074;
+    background-color: #1A2930;
     font-family: 'Arial Nova', Arial, sans-serif;
     text-align: center;
-    color: #EAE7DC;
+    color: whitesmoke;
     border-radius: 5px;
 }
 
@@ -42,6 +42,7 @@ nav > ul:after {
 .two-tier {
     font-family: 'Arial Nova', Arial, sans-serif;
     text-align: center;
+    background-color: whitesmoke
 }
 #menu-icon {
     background: url(menu-icon.png);
@@ -61,8 +62,8 @@ nav > ul:after {
    nav ul, nav:active ul {
      display: none;
      position: absolute;
-     padding: 20px;
-     background: #8E8D8A;
+     padding: 10px;
+     background-color: whitesmoke;
      right: 0;
      top: 76px;
      width: 35%;

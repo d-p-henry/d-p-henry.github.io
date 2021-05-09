@@ -58,35 +58,39 @@ footer {
 } 
 
 body{
-    background-color: #D8C3A5;
+    background-color: #c5c1c0;
     margin: 40px;
+    color: #0A1612;
 }
 header {
   justify-content: center;
 }
 h1{
     font-family: 'Merriweather', Garamond, 'Times New Roman', serif;
-    color: #EAE7DC;
-    background-color: #E98074;
+    color: whitesmoke;
+    background-color: #f7ce3e;
     border-radius: 5px;
 }
 h3{
     font-family: 'Source Sans Pro Bold', 'Arial Nova', Arial, sans-serif;
     font-style: italic;
-    color: #E85A4F;
+    color: #1A2930;
 }
 p{
     font-family: 'Source Sans Pro', 'Arial Nova Light', Arial, sans-serif;
-    color: #8E8D8A;
 }
 blockquote{
-    color: #E85A4F;
+    color: #1A2930;
     font-family: Merriweather, Garamond, 'Times New Roman', serif;
     font-weight: bold;
     font-size: 18px;
 }
 
 main p:first-of-type::first-letter { font-weight: bold; font-size: 200%; }
+
+main {
+  padding-bottom: 40px;
+}
 
 #reflections { text-indent: 3em;}
 
@@ -107,7 +111,6 @@ main p:first-of-type::first-letter { font-weight: bold; font-size: 200%; }
   transform: scale(1.5);
 }
 .box {
-  background-image: url(footer2.jpg);
   width: auto;
   height: auto;
   border-radius: 5px;
@@ -118,23 +121,24 @@ main p:first-of-type::first-letter { font-weight: bold; font-size: 200%; }
 }
 .iframe-container {
   position: relative;
-  width: 100%;
-  padding-bottom: 56.25%;
+  width: 50%;
+  padding-bottom: 28.12%;
   height: 0;
 }
 .iframe-container iframe {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
 }
 .libguide img
 {
   max-width: 50%;
 }
 footer {
-  padding-top: 40px;
+  padding-top: 10px;
+  background-color: #f7ce3e;
 }
 #comment {
 height: 5em;
